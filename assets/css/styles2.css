@@ -18,3 +18,7 @@
   width: 100%;
   border: 0;
 }
+
+.slogan {
+    font-size: var(--little-font-size); 
+}

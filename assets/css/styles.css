@@ -16,12 +16,14 @@
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
+    --little-font-size: 0.5rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
 @media screen and (min-width: 768px){
   :root{
     --big-font-size: 3.5rem;
+    --little-font-size: 3.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
   }
@@ -303,6 +305,7 @@ img{
 }
 .skills__img{
   border-radius: .5rem;
+    
 /*    max-height: 200rem;*/
 /*    position:absolute;*/
 /*    clip:rect(auto, auto,10px, 20px);*/
@@ -438,9 +441,14 @@ img{
 
   .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
+      
     align-items: center;
     text-align: initial;
   }
+    .skills__img{
+        margin-left: 4.5rem;
+        
+    }
   .about__img img{
     width: 300px;
   }
