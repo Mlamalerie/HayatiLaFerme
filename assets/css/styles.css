@@ -8,8 +8,8 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
-  --second-color: #0E2431;
+  --first-color: #3ac680;
+  --second-color: #0c291a;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -200,6 +200,7 @@ img{
   color: var(--first-color);
 }
 .home__social{
+    justify-content: center;
   display: flex;
   flex-direction: column;
 }
@@ -302,6 +303,9 @@ img{
 }
 .skills__img{
   border-radius: .5rem;
+/*    max-height: 200rem;*/
+/*    position:absolute;*/
+/*    clip:rect(auto, auto,10px, 20px);*/
 }
 
 /* ===== WORK =====*/
@@ -346,7 +350,8 @@ img{
   background-color: var(--second-color);
   color: #fff;
   text-align: center;
-  font-weight: var(--font-semi);
+    font-size: 0.9rem;
+/*  font-weight: 300;*/
   padding: 2rem 0;
 }
 .footer__title{
@@ -354,13 +359,26 @@ img{
   margin-bottom: var(--mb-4);
 }
 .footer__social{
-  margin-bottom: var(--mb-4);
+/*  margin-bottom: var(--mb-4);*/
 }
 .footer__icon{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #fff;
   margin: 0 var(--mb-2)
 }
+/* ===== PIEDPIED =====*/
+
+
+.piedpied {
+     background-color: #040b08;
+  text-align: center;
+    font-size: 0.9rem;
+  font-weight: 100;
+  padding: 1.2rem 0;
+    color: whitesmoke;
+    
+}
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
@@ -414,8 +432,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
-    bottom: 15%;
+    width: 500px;
+    bottom: 25%;
   }
 
   .about__container, .skills__container{
@@ -447,4 +465,8 @@ img{
   .home__img{
     right: 10%;
   }
+}
+
+.link-media {
+    font-size: 3rem;
 }
