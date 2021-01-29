@@ -1,0 +1,31 @@
+/** MENU **/
+#colorlib-aside {
+        background: #249655 ;
+    
+}
+#hayati-logo {
+     
+} 
+
+#colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
+    color: #ffffff;
+}
+#colorlib-aside #colorlib-main-menu ul li a {
+    color: rgba(255, 255, 255, 0.7);
+   
+}
+#colorlib-aside #colorlib-main-menu ul li a:after { 
+    background-color: #ffffff;
+    color: #ffffff;
+    
+} 
+
+#colorlib-aside #colorlib-main-menu ul li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.ftco-footer {
+        padding: 4rem 0rem;
+    
+}
