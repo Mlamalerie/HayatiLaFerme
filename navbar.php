@@ -5,7 +5,7 @@ $okproduct = false;
 $okgallery = false;
 $okblog = false;
 $okcontact = false;
-
+/*
 $page = basename($_SERVER['PHP_SELF']);
     switch ($page) {
         case "about.php":
@@ -30,7 +30,7 @@ $page = basename($_SERVER['PHP_SELF']);
         
 
     }
-
+*/
 ?>
 
 
