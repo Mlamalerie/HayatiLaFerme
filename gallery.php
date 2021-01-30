@@ -34,8 +34,8 @@
                     <div class="container">
                         <div class="row no-gutters slider-text align-items-center">
                             <div class="col-md-9 ftco-animate">
-                                <p class="breadcrumbs"><span class="mr-2"><a href="index-2.html">Home</a></span> <span>Gallery</span></p>
-                                <h1 class="mb-3 bread">Galleries</h1>
+                                <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Gallerie</span></p>
+                                <h1 class="mb-3 bread">Quelques photos</h1>
                                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                             </div>
                         </div>
@@ -57,8 +57,8 @@
                                 <a href="<?= $dir?>/<?= rawurlencode($files1[$i])?>" class="photography-entry img image-popup d-flex justify-content-center align-items-center" style="background-image: url(<?= $dir?>/<?= rawurlencode($files1[$i]) ?>);">
                                     <div class="overlay"></div>
                                     <div class="text text-center">
-                                        <h3>Work 01</h3>
-                                        <span class="tag">Model</span>
+                                        <h3><?=  explode(".", $files1[$i])[0]?></h3>
+                                        <span class="tag">2020</span>
                                     </div>
                                 </a>
                             </div>
@@ -66,54 +66,10 @@
                         </div>
                     </div>
                 </section>
-                <footer class="ftco-footer ftco-bg-dark ftco-section">
-                    <div class="container px-md-5">
-                        <div class="row mb-5">
-                            <div class="col-md">
-                                <div class="ftco-footer-widget mb-4 ml-md-4">
-                                    <h2 class="ftco-heading-2">Category</h2>
-                                    <ul class="list-unstyled categories">
-                                        <li><a href="#">Photography <span>(6)</span></a></li>
-                                        <li><a href="#">Fashion <span>(8)</span></a></li>
-                                        <li><a href="#">Technology <span>(2)</span></a></li>
-                                        <li><a href="#">Travel <span>(2)</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md">
-                                <div class="ftco-footer-widget mb-4">
-                                    <h2 class="ftco-heading-2">Archives</h2>
-                                    <ul class="list-unstyled categories">
-                                        <li><a href="#">November 2018 <span>(105)</span></a></li>
-                                        <li><a href="#">October 2018 <span>(212)</span></a></li>
-                                        <li><a href="#">September 2018 <span>(150)</span></a></li>
-                                        <li><a href="#">August 2018 <span>(100)</span></a></li>
-                                        <li><a href="#">July 2018 <span>(200)</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md">
-                                <div class="ftco-footer-widget mb-4">
-                                    <h2 class="ftco-heading-2">Have a Questions?</h2>
-                                    <div class="block-23 mb-3">
-                                        <ul>
-                                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="224b4c444d625b4d5750464d4f434b4c0c414d4f">[email&#160;protected]</span></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>
-                                    Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                  <?php
+            require_once('footer.php');
+       
+            ?>
             </div>
         </div>
 
