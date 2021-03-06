@@ -4,7 +4,7 @@
     --vert : #249655;
     --vert-dark : #276a44; 
     --beige: #f4c160;
-    --marron: #4a231c;
+    --marron: #572a22;/*#4a231c*/
     --marron-dark: #401a11;
 }
 .bg-marron {
@@ -13,6 +13,7 @@
 .bg-vert {
     background-image: linear-gradient(to right, var(--vert) 15%, var(--vert-dark) 100%);
 }
+
 
 
 
@@ -53,6 +54,6 @@
     background-image: url(../img/IMG_3650.JPG)
 }
 .slider_bg_2 {
-    background-image: url(../img/IMG-20201110-WA0069.jpg)
+    background-image: url(../img/vachedecembre1%202020.JPG)
 }
 
