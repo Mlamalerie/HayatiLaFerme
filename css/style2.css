@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+:root {
+    --vert : #249655;
+    --vert-dark : #276a44; 
+    --beige: #f4c160;
+    --marron: #4a231c;
+    --marron-dark: #401a11;
+}
+.bg-marron {
+    background-image: linear-gradient(to right, var(--marron) 15%, var(--marron-dark) 100%);
+}
+.bg-vert {
+    background-image: linear-gradient(to right, var(--vert) 15%, var(--vert-dark) 100%);
+}
+
+
+
+.welcome_docmed_area .welcome_docmed_info ul li {
+    color: #c6c6c6;
+}
+.logo {
+    
+    width: 160px;
+}
+
+.header-area .main-header-area {
+    background-image: linear-gradient(to right, var(--vert) 15%, var(--vert-dark) 100%);
+}
+.header-area .main-header-area.sticky {
+    background:rgba(36, 150, 85, 0.98);
+}
+
+.header-area .header-top_area {
+    background: var( --vert-dark);
+}
+.header-area .main-header-area .main-menu ul li a {
+    color: #fcfcfc;
+}
+.header-area .main-header-area .main-menu ul li a:hover {
+    color: var( --beige);;
+}
+.header-area .header-top_area .short_contact_list ul li a {
+    color: #c3c3c3;
+   
+}
+
+.hayati-font {
+    font-family: 'Carter One', cursive;
+}
+
+.slider_bg_1 {
+    background-image: url(../img/IMG_3650.JPG)
+}
+.slider_bg_2 {
+    background-image: url(../img/IMG-20201110-WA0069.jpg)
+}
+
